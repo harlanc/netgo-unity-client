@@ -18,13 +18,13 @@ netgo-unity-client is a unity client SDK for [netgo](https://github.com/netgo-fr
 
 Open the **DemoLobbyScene** and configure the [netgo server](https://github.com/netgo-framework/netgo) IP address and port.
 
-![](http:/qiniu.harlanc.vip/12.24.2019_8:03:50.png)
+![](http://qiniu.harlanc.vip/12.24.2019_8:03:50.png)
 
 ##### Switch Platform
 
 Switch the Platform to Android.
 
-![](http:/qiniu.harlanc.vip/12.24.2019_7:46:29.png)
+![](http://qiniu.harlanc.vip/12.24.2019_7:46:29.png)
 
 ##### Build 
 
@@ -41,7 +41,7 @@ netgo-unity-client can also be run on MacOS/IOS/Windows.
 
 You should install and run the APK on more than one clients.Look at the lobby scene menu:
 
-![](http:/qiniu.harlanc.vip/12.24.2019_9:41:23.png)
+![](http://qiniu.harlanc.vip/12.24.2019_9:41:23.png)
 
 1. **Room Name :** Define a unique name for a Room.
 2. **Room Capacity :** The count which one Room can hold.
