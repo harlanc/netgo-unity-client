@@ -51,15 +51,15 @@ You should install and run the APK on more than one clients.Look at the lobby sc
 
 ##### Communications
 
-When a client first join a room, a cube will be instantiated(Here we call **Mine Cube**).You will be cloned(Here we call **Clone Cube**) on other client when other one join the same room.You can click the **Mine Cube** to change the colors,it can be synced by using **[RPC](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/RPC)**:
+When a client first join a room, a cube will be instantiated(Here we call **Mine Cube**).The **Mine Cube** will be cloned(Here we call **Clone Cube**) on other client when the other one join the same room.You can click the **Mine Cube** to change the colors,it can be synced by using **[RPC](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/RPC)**:
 
 ![](https://github.com/netgo-framework/netgo-unity-client/blob/master/README/netgo-client-rpc.gif)
 
-And we click **Move** button to let the two cubes move.We here use **[View Sync](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/ViewSynchronizer)** to sync the positions and rotations for each other:
+And then we click **Move** button to let the two cubes move.We here use **[View Sync](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/ViewSynchronizer)** to sync the positions and rotations for each other:
 
 ![](https://github.com/netgo-framework/netgo-unity-client/blob/master/README/netgo_client_readme_viewsync.gif)
 
-When you click the **Clone Cube**,we here **[Custom Event](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/CustomEvent)** to send a message to **Mine Cube**.
+When you click the **Clone Cube**,we here use **[Custom Event](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/CustomEvent)** to send a message to **Mine Cube**.
 
 For details you can review the revelant souce codes.
 
