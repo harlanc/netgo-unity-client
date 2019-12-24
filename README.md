@@ -57,7 +57,7 @@ When a client first join a room, a cube will be instantiated(Here we call **Mine
 
 And we click **Move** button to let the two cubes move.We here use **[View Sync](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/ViewSynchronizer)** to sync the positions and rotations for each other:
 
-![](http://qiniu.harlanc.vip/netgo-client-viewsync2.gif)
+![](http://qiniu.harlanc.vip/netgo-client-viewsync3.gif)
 
 When you click the **Clone Cube**,we here **[Custom Event](https://github.com/netgo-framework/netgo-unity-client/tree/master/Assets/Netgo/Application/CustomEvent)** to send a message to **Mine Cube**.
 
