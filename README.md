@@ -45,7 +45,7 @@ You should install and run the APK on more than one clients.Look at the lobby sc
 
 1. **Room Name :** Define a unique name for a Room.
 2. **Room Capacity :** The count which one Room can hold.
-3. **Join Or Create Room:**If the Room exists , then join the Room ,else create a new Room.
+3. **Join Or Create Room:** If the Room exists , then join the Room ,else create a new Room.
 4. **Create Room:** Just create the Room.
 5. **Join Room:** Just join the Room.
 
