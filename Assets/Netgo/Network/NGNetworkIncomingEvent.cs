@@ -10,19 +10,19 @@ namespace Netgo.Network
     }
     public interface NGISocketStatusEvent
     {
-        void onConnected();
+        void OnConnected();
     }
     public class NGNetworkIncomingEvent : MonoBehaviour, NGISocketStatusEvent
     {
-        public virtual void onConnected() { }
+        public virtual void OnConnected() { }
         public void OnEnable()
         {
-            NGNetworkEvent.OnConnected += this.onConnected;
+            NGNetworkEvent.OnConnected += this.OnConnected;
         }
 
         public void OnDisable()
         {
-            NGNetworkEvent.OnConnected -= this.onConnected;
+            NGNetworkEvent.OnConnected -= this.OnConnected;
         }
     }
 }
