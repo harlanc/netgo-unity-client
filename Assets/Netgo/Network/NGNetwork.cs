@@ -46,7 +46,7 @@ namespace Netgo.Network
 
             }
         }
-        public override void onConnected()
+        public override void OnConnected()
         {
             Status = SocketStatus.Connected;
             NGLogger.LogDebug("On connected");
